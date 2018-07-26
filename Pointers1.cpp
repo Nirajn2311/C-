@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 
+using namespace std;
+
 int main()
 {
     char a = '1',b = 'a';
@@ -11,10 +13,9 @@ int main()
     q = &b;
     r = &c;
     s = &d;
-    std::cout<<p;
-    std::cout<<"\n"<<q;
-    std::cout<<"\n"<<r;
-    std::cout<<"\n"<<s;
-    getchar();
+    cout<<p;
+    cout<<"\n"<<q;
+    cout<<"\n"<<r;
+    cout<<"\n"<<s;
     return 0;
 }
