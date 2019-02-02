@@ -1,7 +1,5 @@
-#include <iostream>
-#include <stdio.h>
-
-using namespace std;
+#include <iostream.h>
+#include <conio.h>
 
 struct node
 {
@@ -79,8 +77,9 @@ void stack::stackdisplay()
 	}
 }
 
-int main()
+void main()
 {
+	clrscr();
 	char ans;
 	int opt;
 	stack s1;
@@ -119,5 +118,5 @@ int main()
 			 << "Do you want to continue(y/n): ";
 		cin >> ans;
 	} while (ans == 'y' || ans == 'Y');
-	return 1;
+	getch();
 }
